@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 const LiveTV = () => {
-    const Livelink = "https://www.jiocinema.com/sports/kkr-vs-rcb/3716146"
+    const Livelink = "https://www.jiocinema.com/sports/lsg-vs-pbks/3724428"
     const [timeleft, setTime] = useState('Time to Live');
     const date = new Date();
     const handleClick = () => {

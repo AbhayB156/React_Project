@@ -12,7 +12,7 @@ const LiveTV = () => {
         <div className="livetv"> 
         <h2>Live Today</h2>
         <p>Time Left: {timeleft}</p>
-        <p><button onClick={handleClick}>Go Live </button></p>
+        <p><button onClick={handleClick} style={{ backgroundColor: 'Red' }}>Go Live </button></p>
         <a href={Livelink}> Live </a></div>
      );
 }

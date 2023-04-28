@@ -4,49 +4,82 @@
   margin: 0;
   font-family: 'Bebas Neue', cursive;
   color: #333;
-  background-color: #1f7fbf;
+  background-color: #01070c;
+  color: white;
 }
 .navbar{
-  padding: 20px;
+  padding: 10px 30px;
   display: flex;
   align-items: center;
-  max-width: 600px;
+  max-width: 1200px;
   margin: 0 auto;
-  border-bottom: 1px solid #00f0b0;
+  border-bottom: 1px solid #4adf36;
 }
 .navbar h1 {
-   /* margin: 0px;  */
+  font-size: 30px;
   color: #f1356d;
+  margin: 0;
 }
-.navbar .links {
-  margin-left: auto;
+.navbar .link {
+  margin-left: auto;  
 }
 .navbar a {
-  margin-left: 100px;
+  margin-left: 20px;
   text-decoration: none;
-  padding: 6px;
+  padding: 0px;
 }
+
 .navbar a:hover {
   color: #f1356d;
 }
 .livetv {
   max-width: 600px;
-  margin: 40px auto;
-  padding: 20px;
+  margin: 50px;
+  padding: 0px;
   color: #bf45af;
 }
 .livetv .links {
   margin-left: auto;
 }
 .livetv h2 {
+  font-size: 25px;
   margin-right: 500px;
 }
+
 .content h1{
-  margin-right: 500px;
+  margin-right: 0px;
+  font-size: 30px;
 }
 .content a:hover{
   color: #f1356d;
 }
 .App{
-  margin-right: 500px;
+  /* margin-right: 50px; */
+}
+/* match preview */
+.match-preview {
+  padding: 18px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafa;
+  display: flex;
+  flex-direction: row;
+  /* min-height: 100px; */
+}
+
+.match-preview:hover {
+  box-shadow: 1px 3px 5px #fafa;
+  flex-direction: column;
+}
+
+.match-preview p{
+  margin-left: 16px;
+  padding: 12px;
+}
+
+.match-preview h3{
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+  /* margin-left:16px; */
+  padding: 12px;
 }
